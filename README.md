@@ -1,4 +1,3 @@
-# Sales-Forecasting-Model
 # 📊 Sales Forecasting Model using Prophet
 
 A complete end-to-end **time-series forecasting system** built using **Python** and **Meta’s Prophet** library.  
@@ -53,3 +52,24 @@ Automatically generates:
 
 ### 🔹 7. Model Saving
 Trained model is saved as:
+
+joblib.dump(model, "prophet_model.pkl")
+
+So it can be reused without retraining.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|---------|-------|
+| **Language** | Python |
+| **Data Analysis** | Pandas, NumPy |
+| **Visualization** | Matplotlib, Seaborn |
+| **Forecasting Model** | Prophet |
+| **ML Evaluation** | Scikit-Learn |
+| **Model Storage** | Joblib |
+| **CLI Support** | Argparse |
+| **IDE** | PyCharm |
+
+---
